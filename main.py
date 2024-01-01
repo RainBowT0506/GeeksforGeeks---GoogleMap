@@ -1,16 +1,11 @@
-# This is a sample Python script.
+# import gmplot package
+import gmplot
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# GoogleMapPlotter return Map object
+# Pass the center latitude and
+# center longitude
+gmap1 = gmplot.GoogleMapPlotter(30.3164945,
+								78.03219179999999, 13 )
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Pass the absolute path
+gmap1.draw( "map11.html" )
