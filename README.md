@@ -1,4 +1,5 @@
 實作了 [GeeksforGeeks - Python | Plotting Google Map using gmplot package](https://www.geeksforgeeks.org/python-plotting-google-map-using-gmplot-package/)
+
 使用 `gmplot` 套件在 Python 中繪製 Google 地圖的功能。
 `gmplot` 提供了一個類似於 Matplotlib 的介面，用於生成在 Google 地圖上顯示所有數據所需的 HTML 和 JavaScript。
 
@@ -21,6 +22,3 @@
 ### 程式碼 #5: 在 Google 地圖上繪製多邊形
 在 Google 地圖上繪製了多邊形。
 ![map15](https://github.com/RainBowT0506/GeeksforGeeks-GoogleMap/assets/109667537/3c9d7218-9a9c-4e07-aaa0-f2e6d2bd9e2e)
-
-
-以上是一些使用 `gmplot` 創建不同類型地圖的範例程式碼。
