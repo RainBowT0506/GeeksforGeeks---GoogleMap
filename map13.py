@@ -1,11 +1,13 @@
 # import gmplot package
 import gmplot
 
+from Constant import API_Key_Google_Map
+
 latitude_list = [ 30.3358376, 30.307977, 30.3216419 ]
 longitude_list = [ 77.8701919, 78.048457, 78.0413095 ]
 
 gmap3 = gmplot.GoogleMapPlotter(30.3164945,
-								78.03219179999999, 13)
+								78.03219179999999, 13,apikey=API_Key_Google_Map)
 
 # scatter method of map object
 # scatter points on the google map
