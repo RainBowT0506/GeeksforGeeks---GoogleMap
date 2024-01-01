@@ -8,4 +8,4 @@ gmap1 = gmplot.GoogleMapPlotter(30.3164945,
 								78.03219179999999, 13 )
 
 # Pass the absolute path
-gmap1.draw( "map11.html" )
+gmap1.draw("map11.html")
